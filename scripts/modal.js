@@ -1,19 +1,19 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
-    discover: {
-      title: 'ChowNow Discover',
-      tag: 'FOOD ORDERING PLATFORM.',
+    evosim: {
+      title: 'Evolution Simulator',
+      tag: 'Python / PyGame',
       detail:
-        'ChowNow Discover is a platform that lets customers discover new local restaurants and provides business owners with tools to convert first time orders into lifelong diners.',
-      link: 'https://eat.chownow.com/'
+        'Evolution Simulator generates AI bots that eat food and produce offspring by applyinh the NeuroEvolution of Augmenting Topologies (NEAT) algorithm. The simulator employs techniques of natural selection to produce bots with improving pathfinding traits at each generation.',
+      link: 'https://github.com/siddh991/Evolution-Simulator'
     },
-    ordering: {
-      title: 'ChowNow Ordering Web',
-      tag: 'WHITE-LABEL ONLINE ORDERING SOLUTION.',
+    stock: {
+      title: 'Reinforcement Learning Stock Trader',
+      tag: 'Python / Keras',
       detail:
-        'ChowNow is a commission-free online ordering system and food ordering app helping restaurants feed their hungry customers.',
-      link: 'https://direct.chownow.com/direct/195/locations/260'
+        'Reinforcement Learning Stock Trader is a Keras model which accurately predicts stock prices using historical pricing data and Twitter sentiment analysis.',
+      link: 'https://github.com/siddh991/Reinforcement-Stock-Trader'
     },
     newrelic: {
       title: 'NewRelic.com',
@@ -22,18 +22,18 @@ $(document).ready(function() {
         'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
       link: 'http://www.newrelic.com'
     },
-    roambi: {
-      title: 'Roambi.com',
-      tag: 'BUSINESS ANALYTICS.',
+    bcd: {
+      title: 'Breast Cancer Detector',
+      tag: 'Python / Scikit-learn',
       detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
+        'Breast Cancer Detector is a Jupyter Notebook which cleans a breast cancer dataset and uses a Random Forest model to determine whether a tumour is benign or malignant.',
       link: 'http://www.roambi.com'
     },
-    walker: {
-      title: 'WalkerTracker',
-      tag: 'PERFORMANCE METRICS.',
+    xplorer: {
+      title: 'X-Plorer',
+      tag: 'C# / Unity',
       detail:
-        'Walker Tracker offers goal management, fitness tracking, and team competitions to companies for internal use. A Ruby on Rails and Javascript companion site for the Walker Tracker App. Features visual metrics and gamified progression system.'
+        'X-Plorer is an open-world 3D game developed on the Unity game engine. The player is spawned in a randomly generated environment with varying climates, foliage, animals, etc. They must build tools, hunt prey and fight pirates to survive. '
     },
     powur: {
       title: 'Powur.com',
@@ -42,23 +42,17 @@ $(document).ready(function() {
         'Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
       link: 'http://www.powur.com/with/42'
     },
-    mystand: {
-      title: 'MyStand',
-      tag: 'CROWD-FUNDED CHARITY.',
+    ultrabros: {
+      title: 'UltraBros',
+      tag: 'C# / XNA',
       detail:
-        'MyStand is a crowd-funding, media sharing website, that has you donating actions instead of money out of your pocket. Single page App built with Node.js on Sails and Angular 2.0. Features social media sharing and large scale crowd-funding.'
+        'A recreation of the retro game Super Mario Bros. with features such as combat with enemy AI, an inventory system, a leaderboard and more.'
     },
     never: {
       title: 'NeverSurrender',
       tag: 'ALS AWARENESS.',
       detail:
         'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.'
-    },
-    themall: {
-      title: 'The Mall',
-      tag: 'PEER GUIDED SHOPPING.',
-      detail:
-        'The Mall is a place to follow the latest fashion purchases of your friends and favorite celebrities. Built with Node.js and Handlebars. Features the ability to import thousands of top brands products into one shopping site.'
     }
   };
 
