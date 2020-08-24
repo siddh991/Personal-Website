@@ -62,6 +62,9 @@ $(function() {
         if (pos2 > $('#blog').offset().top) {
             highlightLink('blog');
         }
+        if (pos2 > $('#publication').offset().top) {
+            highlightLink('publication');
+        }
         if (
             pos2 > $('#contact').offset().top ||
             pos + $(window).height() === $(document).height()
