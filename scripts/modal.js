@@ -1,6 +1,13 @@
 $(document).ready(function() {
   // MODAL
   var modalText = {
+    speech: {
+      title: 'Speech Evaluator',
+      tag: 'Python / OpenCV / CMU Sphinx / Docker',
+      detail:
+        'Speech Evaluator is a software that analyzes speech delivery, providing feedback based on visual and auditory cues.',
+      link: 'https://github.com/siddh991/Speech-Evaluator'
+    },
     evosim: {
       title: 'Evolution Simulator',
       tag: 'Python / PyGame',
@@ -15,44 +22,26 @@ $(document).ready(function() {
         'Reinforcement Learning Stock Trader is a Keras model which accurately predicts stock prices using historical pricing data and Twitter sentiment analysis.',
       link: 'https://github.com/siddh991/Reinforcement-Stock-Trader'
     },
-    newrelic: {
-      title: 'NewRelic.com',
-      tag: 'APPLICATION PERFORMANCE MONITORING.',
-      detail:
-        'Roambi provides analytics, reporting, and business intelligence for companies to use on the go. A Wordpress hosted site written in PHP and Javascript with Hubspot Integration.',
-      link: 'http://www.newrelic.com'
-    },
     bcd: {
       title: 'Breast Cancer Detector',
       tag: 'Python / Scikit-learn',
       detail:
         'Breast Cancer Detector is a Jupyter Notebook which cleans a breast cancer dataset and uses a Random Forest model to determine whether a tumour is benign or malignant.',
-      link: 'http://www.roambi.com'
+      link: 'https://github.com/siddh991/Breast-Cancer-Detector'
     },
     xplorer: {
       title: 'X-Plorer',
       tag: 'C# / Unity',
       detail:
-        'X-Plorer is an open-world 3D game developed on the Unity game engine. The player is spawned in a randomly generated environment with varying climates, foliage, animals, etc. They must build tools, hunt prey and fight pirates to survive. '
-    },
-    powur: {
-      title: 'Powur.com',
-      tag: 'CONSUMER POWERED MARKETING.',
-      detail:
-        'Powur is a marketing platform for lead generation, recruitment, and team building. Built with Ruby on Rails and Angular-UI. Makes use of Angular-material for front-end visuals. Features complex user tree heiarchy and commission system.',
-      link: 'http://www.powur.com/with/42'
+        'X-Plorer is an open-world 3D game developed on the Unity game engine. The player is spawned in a randomly generated environment with varying climates, foliage, animals, etc. They must build tools, hunt prey and fight pirates to survive. ',
+      link: 'https://github.com/siddh991/Gr12ISUGAME'
     },
     ultrabros: {
       title: 'UltraBros',
       tag: 'C# / XNA',
       detail:
-        'A recreation of the retro game Super Mario Bros. with features such as combat with enemy AI, an inventory system, a leaderboard and more.'
-    },
-    never: {
-      title: 'NeverSurrender',
-      tag: 'ALS AWARENESS.',
-      detail:
-        'NeverSurrender is a platform for the new ALS foundation mobile app in hopes to raise awareness and research funding to fight ALS. Pure JavaScript marketing site to promote the new ALS NeverSurrender app.'
+        'A recreation of the retro game Super Mario Bros. with features such as combat with enemy AI, an inventory system, a leaderboard and more.',
+      link: 'https://github.com/siddh991/UltraBros'
     }
   };
 
